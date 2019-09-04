@@ -1,6 +1,7 @@
 import MainComponent from "./pages/MainComponent";
 import ExampleComponent from "./pages/ExampleComponent";
 import UseReduxComponent from "./pages/UseReduxComponent";
+import SignIn from "./pages/SignIn"
 
 const routes = [
   {
@@ -17,6 +18,11 @@ const routes = [
     path: "/useRedux",
     exact: true,
     component: UseReduxComponent
+  },
+  {
+    path: "/login",
+    exact: true,
+    component: SignIn
   }
 ];
 
