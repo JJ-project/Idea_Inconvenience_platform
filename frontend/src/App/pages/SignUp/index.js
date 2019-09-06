@@ -5,9 +5,9 @@ import classnames from "classnames/bind";
 import css from "./index.scss";
 
 const cx = classnames.bind(css);
-const moduleName = "SignIn";
+const moduleName = "SignUp";
 
-class SignIn extends Component {
+class SignUp extends Component {
   constructor() {
     super();
     this.state = {}
@@ -20,4 +20,4 @@ class SignIn extends Component {
   }
 }
 
-export default SignIn
+export default SignUp
