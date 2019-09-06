@@ -16,7 +16,7 @@ class Home extends Component {
   render() {
     return (
       <div className={cx(`${moduleName}`)}>
-        <Header />
+        <Header/>
         <Switch>
           {routes.map(({ ...routeProps }) => (
             <Route {...routeProps} key={routeProps.path || ""} />
